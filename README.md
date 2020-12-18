@@ -59,3 +59,39 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+##Project info
+
+Stexcel Laravel Api passportov, responsove
+
+Ogtagorcel 
+- **Sockets**
+- **Observers**
+- **Listeners**
+- **Laravel resource for API**
+
+Amen product uni categoria, zexch
+
+Producty kara unena itemner name, text, nkar, stexcman amsativ, editi amsativ u ova edit arel verji angam, giny, qanak, bonus.
+
+1.Petqa e cuyc tal productneri listy.
+
+2.Ete sexmenq tesnel avelin gnam itemnerin el tesnem.
+
+3.Productneri listum petqa tesnem total giny, total qanaky, bonusneri total qanaky.
+
+4.Stexcel nor product ira itemnerov. Ete item chenq stexcum product chi kara stexcyvi.
+
+5.Karoxanal jnjel producty, karoxanal jnjel meji itemy. 
+
+6.Ete itemnery jnjenq sax producty avtomat jnjyvuma. Ete producty jnjenq meji itemnery avtomat jnjyvum en.
+
+7.U petqa avtocomplete productneri ejum vor itemneri anunov karoxanam tesnel.
+
+##Project run
+
+1.composer install
+
+2.php artisan migrate
+
+3.php artisan passport:install
