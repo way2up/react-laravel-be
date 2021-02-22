@@ -22,7 +22,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::post('/register', [AuthController::class, 'register']);
 Route::post('/login', [AuthController::class, 'login']);
 Route::group(['middleware' => ['auth:api']], function () {
-    Route::post('/logout', 'UserApiController@logout');
+    Route::post('/logout', [AuthController::class, 'logout']);
     Route::get('/products/autocomplete', [ProductController::class, 'productAutocomplete']);
     Route::apiResource('/products', 'App\Http\Controllers\Api\Product\ProductController');
     Route::apiResource('/product_items', 'App\Http\Controllers\Api\ProductItem\ProductItemController');
